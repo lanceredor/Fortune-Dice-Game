@@ -1,0 +1,35 @@
+import random
+
+while True:
+    Answer = input("🧙‍♂️ Try your luck and spin a dice? (yes/no): ").lower()
+
+    if Answer == "yes":
+        Dice_Roll = random.randint(1, 6)
+        print("You rolled a", Dice_Roll)
+
+
+        if Dice_Roll == 1:
+            print("Fortune: You'll be at the top of your game today. 🚀💪")
+        elif Dice_Roll == 2:
+            print("Fortune: There may be obstacles ahead, but a positive mindset will guide you through. 🏔️⚔️🔥")
+        elif Dice_Roll == 3:
+            print("Fortune: The truth will set you free. Take that risk! 🗝️💥")
+        elif Dice_Roll == 4:
+            print("Fortune: Someone will bring news — whether it’s good or bad is up to you to discover. 🕵️‍♀️📬")
+        elif Dice_Roll == 5:
+            print("Fortune: Make a decision and take action — one of your biggest goals is within reach. 🎯🚀")
+        elif Dice_Roll == 6:
+            print("Fortune: Luck is coming your way! 🍀🎲")
+            
+        break
+        
+    elif Answer == "no":
+        print("Alright. Maybe next time! 🤭😜")
+        break
+
+    else:
+        print("Please answer with 'yes' or 'no'. 🤡🙃")
+
+print ("🎲🎲🎲🎲🎲🎲")
+
+            
